@@ -1,0 +1,47 @@
+/* Estilo de la navbar */
+.navbar {
+    width: 100%;
+    height: 50px;
+    background-color: #56565c;
+    display: flex;
+    justify-content: center; /* Centra los ítems verticalmente */
+    align-items: center; /* Centra los ítems horizontalmente */
+}
+
+/* Estilo de la lista de navegación */
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center; /* Centra los ítems horizontalmente */
+    width: 50%;
+    justify-content: space-around;
+}
+
+/* Estilo de cada ítem de la lista */
+.listItem {
+    margin: 15px 0;
+    text-align: center; /* Alinea el texto en el centro */
+}
+
+/* Estilo de los enlaces */
+.listItem a {
+    color: #ffffff; /* Texto negro por defecto */
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 3rem;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px; /* Bordes redondeados */
+    box-shadow: none; /* Elimina la sombra */
+    background-color: transparent; /* Elimina el fondo */
+    transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y la transformación al hover */
+    text-shadow: #56565c;
+}
+
+/* Estilo al hacer hover sobre los enlaces */
+.listItem a:hover {
+    color: #929292; /* Cambia el color del texto a blanco al hacer hover */
+    background-color: transparent; /* Asegura que el fondo sea transparente */
+    box-shadow: none; /* Asegura que no haya sombra al hacer hover */
+    transform: translateY(-2px); /* Eleva el ítem al hacer hover */
+}

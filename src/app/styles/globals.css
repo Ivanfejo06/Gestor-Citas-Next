@@ -1,0 +1,11 @@
+/* styles/globals.css */
+body {
+  font-family: Arial, sans-serif;
+  background: rgb(43, 41, 41);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
