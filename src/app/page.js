@@ -1,9 +1,9 @@
 const Home = () => {
   return (
-    <>
+    <div>
       <h1>Home</h1>
-      <p>esta es la home</p>
-    </>
+      <p>Bienvenidos al gestor de citas en Next,js</p>
+    </div>
   );
 };
 

@@ -1,5 +1,4 @@
 "use client"; 
-
 import Layout from '../layout';
 import React, {useState} from 'react';
 import FormularioCita from '../Components/FormularioCita';

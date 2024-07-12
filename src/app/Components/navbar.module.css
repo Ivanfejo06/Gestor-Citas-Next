@@ -35,7 +35,7 @@
     box-shadow: none; /* Elimina la sombra */
     background-color: transparent; /* Elimina el fondo */
     transition: color 0.3s ease, transform 0.3s ease; /* Transición para el color y la transformación al hover */
-    text-shadow: #56565c;
+    text-shadow: 1px 2px 9px rgba(0,0,0,0.48);
 }
 
 /* Estilo al hacer hover sobre los enlaces */
