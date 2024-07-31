@@ -1,5 +1,6 @@
 import React from 'react';
-import Swal from 'sweetalert2';
+import Swal from 'sweetalert2'; // Ensure correct CSS module path
+import styles from './CitaCard.module.css';
 
 const CitaCard = ({ cita, eliminarCita }) => {
   const handleDelete = () => {

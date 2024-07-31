@@ -1,11 +1,9 @@
-import Layout from '../layout';
-
 const Quienes_somos = () => {
   return (
-    <Layout>
+    <div>
       <h2>Creadores:</h2>
       <p>Ivan Joaquin</p>
-    </Layout>
+    </div>
   );
 };
 export default Quienes_somos;
