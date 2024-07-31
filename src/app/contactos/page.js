@@ -1,8 +1,13 @@
+import React from 'react';
+import Formulario from '../Components/Formulario';
+
 const Contactos = () => {
   return (
     <div>
-      <p>Aca no hay ayuda, salvese quien pueda</p>
+      <h1>Página de Contactos</h1>
+      <Formulario />
     </div>
   );
 };
+
 export default Contactos;
